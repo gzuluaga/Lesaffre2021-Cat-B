@@ -85969,7 +85969,7 @@ var staticRenderFns = [
       "label",
       { staticClass: "form__label", attrs: { for: "email" } },
       [
-        _vm._v("correo Electronico "),
+        _vm._v("Email "),
         _c("span", { staticClass: "required" }, [_vm._v("*")])
       ]
     )
@@ -85982,7 +85982,7 @@ var staticRenderFns = [
       "label",
       { staticClass: "form__label", attrs: { for: "email" } },
       [
-        _vm._v("Razon Social "),
+        _vm._v("Razón Social "),
         _c("span", { staticClass: "required" }, [_vm._v("*")])
       ]
     )
@@ -86440,7 +86440,7 @@ var render = function() {
               staticClass: "form-label",
               attrs: { for: "exampleFormControlInput1" }
             },
-            [_vm._v("Nombres y Apellido")]
+            [_vm._v("Nombres y Apellidos")]
           ),
           _vm._v(" "),
           _c("input", {
@@ -86475,7 +86475,7 @@ var render = function() {
               staticClass: "form-label",
               attrs: { for: "exampleFormControlInput1" }
             },
-            [_vm._v("Correo Electronico")]
+            [_vm._v("Email")]
           ),
           _vm._v(" "),
           _vm.flagGuardar
@@ -86516,7 +86516,7 @@ var render = function() {
               staticClass: "form-label",
               attrs: { for: "exampleFormControlInput1" }
             },
-            [_vm._v("Razon Social")]
+            [_vm._v("Razón Social")]
           ),
           _vm._v(" "),
           _c("input", {

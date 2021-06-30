@@ -32,6 +32,7 @@ Route::get('premios', 		[PageFrontController::class, 'premios']);
 Route::get('receta', 		[PageFrontController::class, 'receta']);
 Route::get('aprende', 		[PageFrontController::class, 'aprende']);
 Route::get('tiempos', 		[PageFrontController::class, 'tiempos']);
+Route::get('bases', 		[PageFrontController::class, 'bases']);
 
 Route::get('getalias', 		[PageFrontController::class, 'listAlias']);
 Route::post('store', 		[PageFrontController::class, 'store']);

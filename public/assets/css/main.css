@@ -2760,7 +2760,7 @@ a, button, .item-overlay, .global-overlay, .scroll-to-top i:before, .slick-dots 
 /*-- 21.01 - Blog Details --*/
 .single-post {
   margin-top: -315px;
-  border-bottom: 2px solid #5c5958; }
+ }
   @media (max-width: 61.94em) {
     .single-post {
       margin-top: -250px; } }

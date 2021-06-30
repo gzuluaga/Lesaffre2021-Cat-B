@@ -25,8 +25,9 @@
                         <div class="container">
                             <div class="row align-items-center no-gutters w-100">                                    
                                 <figure class="slider-image">
-                                    <img src="assets/img/receta/receta.png">
+                                    <img src="assets/img/receta/receta_B.png">
                                 </figure>
+                                <p>(*) Debe superar el 85% del volumen en cada categoría para empezar a sumar puntos.</p>
                             </div>
                         </div>
                     </div>

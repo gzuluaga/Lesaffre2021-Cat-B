@@ -68,6 +68,13 @@ class PageFrontController extends Controller
    			return view('frontend.page_tiempos');
    		}
    	}
+	   public function bases(Request $request)
+   	{
+   		if ($request) {
+   			return view('frontend.page_bases_y_condiciones');
+   		}
+   	}
+
    	public function listAlias(Request $request)
     {
         if(!$request->ajax()) return redirect('/');

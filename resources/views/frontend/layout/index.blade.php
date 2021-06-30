@@ -77,7 +77,7 @@
                             </div>
                             <div class="header__col header__right">
                                 <div class="toolbar-item d-none d-lg-block">
-                                    <a href="{{ URL::to('loginview') }}" class="css-button-login">Ingresa</a>
+                                    <a href="{{ URL::to('loginview') }}" class="css-button-login">Ingresá</a>
                                 </div>                                
                             </div>
                         </div>
@@ -116,6 +116,12 @@
                             <h3 class="widget-title mb--35 mb-sm--15">Desafío Lesaffre 2021</h3>
                             <ul class="footer-menu">
                                 <li>
+                                    <a href="{{URL::to('bases')}}">
+                                        <i class="fa fa-angle-right"></i>
+                                        <span>Bases y Condiciones</span>
+                                    </a>
+                                </li>
+                                <li>
                                     <a href="{{URL::to('productos')}}">
                                         <i class="fa fa-angle-right"></i>
                                         <span>Productos</span>
@@ -142,7 +148,7 @@
                                 <li>
                                     <a href="{{URL::to('login')}}">
                                         <i class="fa fa-angle-right"></i>
-                                        <span>Ingresa</span>
+                                        <span>Ingresá</span>
                                     </a>
                                 </li>
                             </ul>
