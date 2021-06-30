@@ -1,0 +1,29 @@
+$primary : #154360;
+
+@import '~bootstrap/scss/bootstrap';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAF2F8;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.box-parametrizacion:hover {
+    -webkit-box-shadow: 0px 0px 10px 1px $primary;
+    -moz-box-shadow: 0px 0px 10px 1px $primary;
+    ox-shadow: 0px 0px 10px 1px $primary;
+}
+.box-parametrizacion:active {
+    -webkit-box-shadow: inset 0px 0px 10px 1px $primary;
+    -moz-box-shadow: inset 0px 0px 10px 1px $primary;
+    box-shadow: inset 0px 0px 10px 1px $primary;
+}
+
+
+
